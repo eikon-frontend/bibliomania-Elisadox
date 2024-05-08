@@ -12,4 +12,292 @@
   --gl-tooltip-size: 6px;
 }
 
-/* 🦊 Vos styles ici */
+body {
+  background-color: #302e2e;
+  max-width: 403px;
+  max-height: 1994px;
+  margin: 0 auto;
+}
+.pp {
+  width: 62px;
+  height: 62px;
+  flex-shrink: 0;
+}
+.Devenir {
+  border-radius: 30px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  width: 185px;
+  height: 339px;
+  flex-shrink: 0;
+  align-items: center;
+  margin-left: 122px;
+  margin-right: 123px;
+}
+.profile1 {
+  border-radius: 77px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  width: 77px;
+  height: 75px;
+  flex-shrink: 0;
+}
+.cercle1-6 {
+  margin: 87px;
+  margin-left: 17px;
+  margin-right: 13px;
+}
+.profile2 {
+  border-radius: 77px;
+  background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+  width: 77px;
+  height: 75px;
+  flex-shrink: 0;
+}
+.Titrage {
+  display: flex;
+  margin-top: 19px;
+  margin-bottom: 20px;
+}
+.retour {
+  color: #000;
+  text-align: center;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 10px;
+  background: #fffc00;
+  width: 77px;
+  height: 26px;
+  flex-shrink: 0;
+  float: right;
+}
+.Titre {
+  color: white;
+  text-align: center;
+  font-family: "Century Gothic";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  height: 33px;
+  flex-shrink: 0;
+  width: 185px;
+  height: 33px;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.Nom {
+  color: #fff;
+  text-align: center;
+  font-family: "Century Gothic";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 185px;
+  margin: left 28px;
+  margin: right 17px;
+}
+
+.pill {
+  background-color: black;
+  text-align: center;
+  color: #fff;
+  width: 77px;
+  height: 16px;
+  flex-shrink: 0;
+  border-radius: 5px;
+}
+.pills2 {
+  border-radius: 6px;
+  background: #000;
+  width: 184px;
+  height: 21px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Pills {
+  display: flex;
+  gap: 36px;
+}
+.Synopsis {
+  flex-shrink: 0;
+  border-radius: 5px;
+  width: 398px;
+  height: 122px;
+}
+.titreavis {
+  color: #fff;
+  text-align: center;
+  width: 77px;
+  height: 16px;
+  flex-shrink: 0;
+  text-align: center;
+  font-family: "Century Gothic";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  width: 185px;
+  height: 30px;
+  line-height: normal;
+  border-radius: 10px;
+  border: 3px solid #fffc00;
+
+  background: #302e2e;
+}
+.Synopsis {
+  color: #fff;
+  text-align: justify;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.avis {
+  color: #000;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 5px;
+  font-family: "Century Gothic";
+  font-size: 12px;
+  font-style: normal;
+  text-align: justify;
+  font-weight: 400;
+  width: 387px;
+  height: 120px;
+  border-radius: 15px;
+  background: linear-gradient(0deg, #d9d9d9 0%, #d9d9d9 100%),
+    linear-gradient(0deg, #e8eb4c 0%, #e8eb4c 100%), #e8eb4c;
+  width: 398px;
+  height: 103px;
+}
+.note2 {
+  color: #fffc00;
+  padding-top: -10px;
+  text-align: center;
+  margin-block-start: 5px;
+  font-family: "Century Gothic";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 5px;
+  background: linear-gradient(0deg, #000 0%, #000 100%),
+    linear-gradient(0deg, #fffc00 0%, #fffc00 100%), #fffc00;
+  width: 78px;
+  height: 22px;
+  flex-shrink: 0;
+  margin-top: 24px;
+  margin-bottom: 15px;
+}
+.cercle7 {
+  margin-left: 15px;
+}
+.envoyer {
+  color: #000;
+  text-align: center;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 12px;
+  background: linear-gradient(0deg, #fffc00 0%, #fffc00 100%),
+    linear-gradient(0deg, #fffc00 0%, #fffc00 100%), #fffc00;
+  width: 77px;
+  height: 26px;
+  flex-shrink: 0;
+  align-self: right;
+  float: right;
+  margin-left: 32px;
+}
+.Avistitre {
+  color: #fff;
+  text-align: center;
+  font-family: "Century Gothic";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 10px;
+  border: 3px solid #fffc00;
+  width: 185px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.utilisateur1 {
+  color: #fff;
+  font-family: "Century Gothic";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 185px;
+  height: 28px;
+  flex-shrink: 0;
+}
+.pp1 {
+  display: flex;
+}
+.utilisateur2 {
+  color: #fff;
+  font-family: "Century Gothic";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 185px;
+  height: 28px;
+  flex-shrink: 0;
+}
+.pp2 {
+  display: flex;
+}
+.avis1 {
+  color: #fff;
+  font-family: "Century Gothic";
+  margin-bottom: 13px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 400px;
+  height: 100px;
+  flex-shrink: 0;
+}
+.voirtout {
+  color: #000;
+  text-align: center;
+  font-family: "Century Gothic";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 10px;
+  background: #eaee12;
+  width: 78px;
+  height: 22px;
+  flex-shrink: 0;
+  float: right;
+}
+.Cercles {
+  gap: 200px;
+}
+
+.profile1 {
+  margin-right: 31px;
+}
+.profile2 {
+  margin-right: 31px;
+}
